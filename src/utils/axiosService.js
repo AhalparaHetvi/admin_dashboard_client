@@ -1,7 +1,7 @@
 import axios from 'axios';
 const API = {
     // API_URL: "http://localhost:5000"
-    API_URL: process.env.SERVER_URL
+    API_URL: "https://admin-dashboard-server-1.onrender.com"
 }
 var axiosservice = (method, url, paylaod) => {
     url = API.API_URL + url;
